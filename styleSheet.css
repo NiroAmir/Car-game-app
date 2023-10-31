@@ -1,0 +1,26 @@
+.parent {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  width: 99vw;
+  height: 88vh;
+}
+.car {
+  width: 100px;
+  transform: rotate(45deg);
+}
+.target {
+  width: 100px;
+}
+.bomb {
+  width: 100px;
+}
+body {
+  margin: 20px;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("backgrounedimage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
